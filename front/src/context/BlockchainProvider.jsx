@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { ethers } from "ethers";
 
 import { BlockchainContext } from "./BlockchainContext";
-import votingContract from "../../../artifacts/contracts/Voting.sol/Voting.json";
-import bookMarketplaceContract from "../../../artifacts/contracts/BookMarketplace.sol/BookMarketplace.json";
+import votingContract from "../abi/Voting.sol/Voting.json";
+import bookMarketplaceContract from "../abi/BookMarketplace.sol/BookMarketplace.json";
 
 import { ERROR_MESSAGES } from "../components/constants/notificationMessage";
 
