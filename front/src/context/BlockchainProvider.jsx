@@ -89,7 +89,7 @@ const BlockchainProvider = ({ children }) => {
   const resetState = () => {
     setNotificationMessage(defaultNotification);
     setCurrentConnection(null);
-    navigate(`/crypto`);
+    navigate(`/`);
   };
 
   const dismissNotification = () => {

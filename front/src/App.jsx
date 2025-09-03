@@ -8,7 +8,7 @@ import NotFound from "./components/error/NotFound";
 const App = () => {
   return (
     <Routes>
-      <Route path="/crypto" element={<Root />}>
+      <Route path="/" element={<Root />}>
         <Route path="marketplace" element={<BookMarketplace />} />
         <Route path="voting" element={<Voting />} />
       </Route>

@@ -1,10 +1,10 @@
 export const navigationData = [
   {
-    path: "/crypto/voting",
+    path: "/voting",
     label: "Voting",
   },
   {
-    path: "/crypto/marketplace",
+    path: "/marketplace",
     label: "Book Marketplace",
   },
 ];
