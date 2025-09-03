@@ -10,7 +10,9 @@ export default defineConfig(({ mode }) => {
     preview: {
       port: env.PORT || 3000,
       host: true,
-      allowedHosts: ["*"],
+    },
+    server: {
+      allowedHosts: true,
     },
   };
 });
